@@ -5,7 +5,7 @@ sidebar_label: Decorators
 ---
 
 `ngx-form-object` exposes three decorators: `Attribute()`, `BelongsTo()`, and `HasMany()`.
-You use one of these decorators to specify what kind of form controls will be created for different model properties.
+You can use one of these decorators to specify what kind of form controls should `FormObjectbuilder` create for different model properties.
 
 ## Attribute()
 `ExtendedFormControl`s will be created for model properties decorated with the `Attribute()` decorator.
